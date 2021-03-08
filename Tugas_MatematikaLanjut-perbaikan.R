@@ -27,4 +27,4 @@ K <- cbind(G[,1:5], J[,1:5])
 K
 #4.5)
 #Compute G · G^−1
-G && solve(G)
+G %*% solve(G)
